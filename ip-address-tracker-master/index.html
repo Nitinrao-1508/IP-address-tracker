@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+ 
+</head>
+<body>
+  <main class="container"> 
+    <section class="header">
+      <h1>IP Address Tracker</h1>
+      <form method="get" class="search-form">
+        <input type="text" placeholder="Search for any IP address or domain" required class="input-field">
+
+        <button type="submit" class="submit-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </section>
+
+    <div class="data">
+
+      <article>
+        <h2>IP Address</h2>
+        <p class="IPaddress"></p>
+      </article>
+      <hr>
+
+      <article>
+        <h2>Location</h2>
+        <p class="locationInput"></p>
+      </article>
+      <hr>
+
+      <article>
+        <h2>Timezone</h2>
+        <p class="timezoneInput"></p>
+      </article>
+      <hr>
+
+      <article>
+        <h2>ISP</h2>
+        <p class="ispInput"></p>
+      </article>
+    </div>
+
+    <section class="map-section">
+
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <script src="https://geo.ipify.org/api/v2/country?apiKey=at_dLvXXszKALiX49ogwNUd8ldVhVlxl&ipAddress=8.8.8.8"></script> -->
+  <script src='config.js'></script>
+  <script src="script.js"></script>
+</body>
+</html>
